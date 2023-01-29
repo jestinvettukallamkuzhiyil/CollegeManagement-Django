@@ -10,13 +10,13 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">{{page_title}}</h3>
+                        <h3 class="card-title" style="font-size:2vw; font-weight:bold">{{page_title}}</h3>
                     </div>
                     <!-- /.card-header -->
-                    <div class="card-body">
+                    <div class="card-body" style= " font-size:1.2vw ; font-weight:bold">
                    
                      
-                        <p> name : {{student.admin}}</p>
+                        <p> Name : {{student.admin.first_name}} {{student.admin.last_name}}</p>
                         <p> Email : {{student.admin.email}} </p>
                         <p>Aadhar : {{student.aadhar_num}} </p>
                         <p>phone number : {{student.phone_num}}</p>
